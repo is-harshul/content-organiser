@@ -4,7 +4,7 @@
   "description": "CLI tool to organize media files by timestamp and geolocation metadata",
   "main": "bin/renamer.js",
   "bin": {
-    "media-group": "bin/renamer.js"
+    "content-renamer": "bin/renamer.js"
   },
   "scripts": {
     "start": "node bin/renamer.js"

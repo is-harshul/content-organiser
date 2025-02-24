@@ -12,21 +12,21 @@ A CLI tool to organize media files by timestamp and geolocation metadata
 
 ## Installation
 ```bash
-npm install -g media-group-renamer
+npm install -g content-renamer
 ```
 
 ## Usage
 ```bash
-media-group <directory> [duration_minutes] [distance_meters]
+content-renamer <directory> [duration_minutes] [distance_meters]
 ```
 
 ### Examples
 ```bash
 # Basic usage with defaults
-media-group ~/Photos
+content-renamer ~/Photos
 
 # Custom grouping parameters
-media-group ~/Videos 30 200
+content-renamer ~/Videos 30 200
 ```
 
 ## Configuration
