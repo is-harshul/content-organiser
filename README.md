@@ -2,6 +2,9 @@
 
 A CLI tool to organize media files by timestamp and geolocation metadata
 
+## Demo
+![Demo](assets/demo.gif)
+
 ## Features
 - Groups media files by time and location metadata
 - Configurable time window (default 15 minutes)
