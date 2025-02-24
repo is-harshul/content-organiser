@@ -1,6 +1,6 @@
 {
   "name": "content-renamer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool to organize media files by timestamp and geolocation metadata",
   "main": "bin/renamer.js",
   "bin": {
