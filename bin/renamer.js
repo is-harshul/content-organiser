@@ -102,6 +102,16 @@ if (!directory) {
   process.exit(1);
 }
 
-processFiles();
+// Add this at the very end of the file:
+if (require.main === module) {
+  // Check for required directory input
+  if (!process.argv[2]) {
+    console.log('Usage: content-renamer <directory> [duration_minutes] [distance_meters]');
+    console.log('Example: content-renamer ~/Photos 30 200');
+    process.exit(1);
+  }
+
+  processFiles();
+}
 
 // node organiser.js ~/Downloads/Personal/Trip/UzbekistanDone 30 250
