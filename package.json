@@ -1,0 +1,30 @@
+{
+  "name": "media-group-renamer",
+  "version": "1.0.0",
+  "description": "CLI tool to organize media files by timestamp and geolocation metadata",
+  "main": "bin/organizer.js",
+  "bin": {
+    "media-group": "bin/organizer.js"
+  },
+  "scripts": {
+    "start": "node bin/organizer.js"
+  },
+  "keywords": ["exif", "media", "organizer", "metadata", "photos", "videos"],
+  "author": "Harshul Kansal <your-email@example.com> (https://github.com/is-harshul)",
+  "license": "MIT",
+  "dependencies": {
+    "exiftool-vendored": "^29.1.0",
+    "haversine": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/is-harshul/media-group-renamer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/is-harshul/media-group-renamer/issues"
+  },
+  "homepage": "https://github.com/is-harshul/media-group-renamer#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
