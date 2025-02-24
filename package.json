@@ -1,15 +1,15 @@
 {
-  "name": "media-group-renamer",
+  "name": "content-renamer",
   "version": "1.0.0",
   "description": "CLI tool to organize media files by timestamp and geolocation metadata",
-  "main": "bin/organizer.js",
+  "main": "bin/renamer.js",
   "bin": {
-    "media-group": "bin/organizer.js"
+    "media-group": "bin/renamer.js"
   },
   "scripts": {
-    "start": "node bin/organizer.js"
+    "start": "node bin/renamer.js"
   },
-  "keywords": ["exif", "media", "organizer", "metadata", "photos", "videos"],
+  "keywords": ["exif", "media", "renamer", "metadata", "photos", "videos", "rename", "content", "photos", "organiser", "renamer"],
   "author": "Harshul Kansal <your-email@example.com> (https://github.com/is-harshul)",
   "license": "MIT",
   "dependencies": {
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/is-harshul/media-group-renamer.git"
+    "url": "git+https://github.com/is-harshul/content-renamer.git"
   },
   "bugs": {
-    "url": "https://github.com/is-harshul/media-group-renamer/issues"
+    "url": "https://github.com/is-harshul/content-renamer/issues"
   },
-  "homepage": "https://github.com/is-harshul/media-group-renamer#readme",
+  "homepage": "https://github.com/is-harshul/content-renamer#readme",
   "engines": {
     "node": ">=14.0.0"
   }
