@@ -9,10 +9,23 @@
   "scripts": {
     "start": "node bin/renamer.js"
   },
-  "keywords": ["exif", "media", "renamer", "metadata", "photos", "videos", "rename", "content", "photos", "organiser", "renamer"],
+  "keywords": [
+    "exif",
+    "media",
+    "renamer",
+    "metadata",
+    "photos",
+    "videos",
+    "rename",
+    "content",
+    "photos",
+    "organiser",
+    "renamer"
+  ],
   "author": "Harshul Kansal <your-email@example.com> (https://github.com/is-harshul)",
   "license": "MIT",
   "dependencies": {
+    "content-renamer": "^1.0.0",
     "exiftool-vendored": "^29.1.0",
     "haversine": "^1.1.1"
   },
