@@ -113,5 +113,3 @@ if (require.main === module) {
 
   processFiles();
 }
-
-// node organiser.js ~/Downloads/Personal/Trip/UzbekistanDone 30 250
