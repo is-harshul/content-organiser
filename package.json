@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "CLI tool to organize media files by timestamp and geolocation metadata",
   "main": "bin/renamer.js",
+  "type": "module",
   "bin": {
     "content-renamer": "bin/renamer.js"
   },
@@ -25,9 +26,11 @@
   "author": "Harshul Kansal <harshul2636@gmail.com> (https://github.com/is-harshul)",
   "license": "MIT",
   "dependencies": {
-    "content-renamer": "^1.0.0",
+    "citty": "^0.1.6",
+    "enquirer": "^2.4.1",
     "exiftool-vendored": "^29.1.0",
-    "haversine": "^1.1.1"
+    "haversine": "^1.1.1",
+    "ora": "^8.2.0"
   },
   "repository": {
     "type": "git",

@@ -19,6 +19,13 @@ npm install -g content-renamer
 ```
 
 ## Usage
+
+### Interactive Mode
+```bash
+content-renamer --interactive
+```
+
+### Non-Interactive Mode
 ```bash
 content-renamer <directory> [duration_minutes] [distance_meters]
 ```
