@@ -1,0 +1,6 @@
+# Ignore demo files
+assets/demo.gif
+
+# Ignore other unnecessary files
+.github/
+.vscode/
