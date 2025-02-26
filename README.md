@@ -78,3 +78,11 @@ Location2_001.png
 
 ## License
 MIT © [Harshul Kansal](https://github.com/is-harshul)
+
+
+## Support
+If you find this project helpful, consider supporting my work:
+
+- [☕ Buy Me a Coffee](https://www.buymeacoffee.com/is.harshul)
+- [💖 GitHub Sponsors](https://github.com/sponsors/is-harshul)
+- [💰 PayPal](https://paypal.me/itsharshul)
